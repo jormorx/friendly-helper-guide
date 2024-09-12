@@ -9,7 +9,7 @@ const LoginForm = () => {
       <form className="space-y-4">
         <Input type="text" placeholder="ID" className="w-full px-4 py-2 border rounded-md" />
         <Input type="password" placeholder="PASSWORD" className="w-full px-4 py-2 border rounded-md" />
-        <Button type="submit" className="w-full bg-red-800 text-white py-2 rounded-md hover:bg-red-900">
+        <Button type="submit" className="w-full text-white py-2 rounded-md bg-gradient-to-r from-[#902923] to-[#2A0C0A] hover:from-[#7D231E] hover:to-[#1F0907]">
           LOGIN
         </Button>
       </form>
